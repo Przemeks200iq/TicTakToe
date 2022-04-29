@@ -1,3 +1,5 @@
+
+
 @media (min-width: 900px) {
     .container {
         display: flex;
@@ -10,9 +12,9 @@
 
 
     .blank {
-        width: 250px;
-        height: 250px;
-        border: solid white 3px;
+        width: 200px;
+        height: 200px;
+
     }
 }
 
@@ -30,7 +32,7 @@
     .blank {
         width: 150px;
         height: 150px;
-        border: solid white 3px;
+
     }
 }
 
@@ -48,7 +50,7 @@
     .blank {
         width: 100px;
         height: 100px;
-        border: solid white 3px;
+
     }
 }
 
@@ -66,11 +68,9 @@
     .blank {
         width: 80px;
         height: 80px;
-        border: solid white 3px;
+
     }
 }
-
-
 
 html {
     height: 100%;
@@ -83,7 +83,34 @@ body {
     justify-content: center;
     color: #fff;
     height: 100%;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
+.blank
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-right: #fff solid 3px;
+    border-bottom: #fff solid 3px;
+}
 
+.blank:nth-child(3) {
+    border-bottom: none;
+}
+
+.no-right {
+    border-right: none;
+}
+
+.none {
+    cursor: auto;
+}
+
+#tura {
+    font-size: 50px;
+}
