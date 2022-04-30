@@ -1,11 +1,8 @@
-
-
 @media (min-width: 900px) {
     .container {
         display: flex;
         justify-content: center;
         align-content: center;
-        flex-wrap: wrap;
         width: 900px;
     }
 
@@ -74,20 +71,21 @@
 
 html {
     height: 100%;
-}
-body {
     margin: 0;
     background-color: #303030;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     color: #fff;
-    height: 100%;
     font-size: 60px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
 
+.body {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
 
 .blank
 {
@@ -112,5 +110,6 @@ body {
 }
 
 #round {
+    display: block;
     font-size: 50px;
 }
