@@ -1,3 +1,3 @@
 # Tic Tak Toe game
 
-Tic Tak Toe in olny in java script
+Tic Tak Toe in only in java script
