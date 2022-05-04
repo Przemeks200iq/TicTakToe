@@ -1,11 +1,7 @@
-'use strict';
+"use strict";
+import { start } from "./src/start.js";
+const playAgain = document.getElementById("playAgain");
 
-for (let i=1; i<=9; i++)
-{
-    i = i.toString();
+start();
 
-    document.getElementById(i).addEventListener('click', () => {
-        alert(i);
-    })
-}
-
+playAgain.addEventListener("click", start);

@@ -1,20 +1,19 @@
-
-
 @media (min-width: 900px) {
     .container {
         display: flex;
         justify-content: center;
         align-content: center;
-        flex-wrap: wrap;
         width: 900px;
     }
 
-
-
     .blank {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
+    }
 
+    #round {
+        font-size: 20px;
+        margin: 3px;
     }
 }
 
@@ -27,16 +26,13 @@
         width: 900px;
     }
 
-
-
     .blank {
-        width: 150px;
-        height: 150px;
-
+        width: 100px;
+        height: 100px;
     }
 }
 
-@media (max-width: 500px)  {
+@media (max-width: 500px) {
     .container {
         display: flex;
         justify-content: center;
@@ -45,12 +41,9 @@
         width: 500px;
     }
 
-
-
     .blank {
         width: 100px;
         height: 100px;
-
     }
 }
 
@@ -63,34 +56,31 @@
         width: 300px;
     }
 
-
-
     .blank {
         width: 80px;
         height: 80px;
-
     }
 }
 
 html {
     height: 100%;
-}
-body {
     margin: 0;
     background-color: #303030;
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+.body {
+    margin-top: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #fff;
     height: 100%;
-    font-size: 60px;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
 }
 
-
-.blank
-{
+.blank {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,6 +101,25 @@ body {
     cursor: auto;
 }
 
-#tura {
+#round {
+    display: block;
     font-size: 50px;
+}
+
+.off {
+    cursor: auto;
+}
+
+#playAgain {
+    font-size: 18px;
+    cursor: pointer;
+    transition: color 0.2s linear;
+}
+
+#playAgain:hover {
+    color: #00aa00;
+}
+
+.hidden {
+    display: none;
 }

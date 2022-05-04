@@ -1,37 +1,44 @@
 <!DOCTYPE html>
 <html lang="pl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Document</title>
+        <script type="module" defer src="index.js"></script>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-    <script defer src="index.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-</head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+            rel="stylesheet"
+        />
+    </head>
 
-<body>
-    <div class="container">
-        <div>
-            <div id="1" class="blank">1</div>
-            <div id="2" class="blank">2</div>
-            <div id="3" class="blank">3</div>
+    <body>
+        <div class="body">
+            <div class="container">
+                <div>
+                    <div id="1" class="blank"></div>
+                    <div id="2" class="blank"></div>
+                    <div id="3" class="blank"></div>
+                </div>
+                <div>
+                    <div id="4" class="blank"></div>
+                    <div id="5" class="blank"></div>
+                    <div id="6" class="blank"></div>
+                </div>
+                <div>
+                    <div id="7" class="blank no-right"></div>
+                    <div id="8" class="blank no-right"></div>
+                    <div id="9" class="blank no-right"></div>
+                </div>
+            </div>
         </div>
-        <div>
-            <div id="4" class="blank">4</div>
-            <div id="5" class="blank">5</div>
-            <div id="6" class="blank">6</div>
-            <p id="tura">Tura:X</p>
-        </div>
-        <div>
-            <div id="7" class="blank no-right">7</div>
-            <div id="8" class="blank no-right">8</div>
-            <div id="9" class="blank no-right">9</div>
-        </div>
-
-    </div>
-</body>
+        <p id="round">Tura:X</p>
+        <p id="playAgain" class="hidden">
+            Kliknij na mnie aby zagrać ponownie!
+        </p>
+    </body>
 </html>
