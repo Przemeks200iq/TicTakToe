@@ -177,6 +177,5 @@ const click = (numberOfDiv) => {
         round.innerHTML = `Tura:${useX ? "0" : "X"}`;
         checkWinCondition();
         useX = useX ? false : true;
-        debugger;
     }
 };
