@@ -1,4 +1,4 @@
-import { winX, win0, draw } from "../src/win.js";
+import { winX, win0 } from "../src/win.js";
 const round = document.getElementById("round");
 const blank = document.querySelectorAll(".blank");
 let useX = true;
@@ -152,7 +152,8 @@ const checkWinCondition = () => {
         check(8) !== "" &&
         check(9) !== ""
     ) {
-        draw();
+        round.innerHTML = `REMIS`;
+        giveClassList();
     }
 };
 

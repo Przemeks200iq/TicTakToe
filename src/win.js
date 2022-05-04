@@ -14,8 +14,3 @@ export const win0 = () => {
     round.innerHTML = `Wygrywa:0`;
     giveClassList();
 };
-
-export const draw = () => {
-    round.innerHTML = `REMIS`;
-    giveClassList();
-};
